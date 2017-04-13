@@ -9,9 +9,10 @@ import java.io.PrintWriter;
 public class dataExtraction {
 	public static BufferedReader br1;
 	public static BufferedReader br2;
+	private static PrintWriter pw;
 	
 	public static void main(String []args) throws IOException{
-		PrintWriter pw = new PrintWriter("C://file//fileEXTRACT.txt");
+		pw = new PrintWriter("C://file//fileEXTRACT.txt");
 		
 		File f1 =new File("C://file//file1.txt");
 		br1 = new BufferedReader(new FileReader(f1));
