@@ -14,7 +14,7 @@ public class armstrongRec {
 		}
 			
 	}
-	//test
+	//test 
 	
 	public static void main(String []args){
 		System.out.println(armstrongRec.arm(153));
