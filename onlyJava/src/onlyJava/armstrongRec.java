@@ -12,7 +12,7 @@ public class armstrongRec {
 		}
 			
 	}
-	
+	//test
 	
 	public static void main(String []args){
 		System.out.println(armstrongRec.arm(200));
