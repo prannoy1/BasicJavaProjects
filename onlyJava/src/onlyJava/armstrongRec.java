@@ -9,7 +9,6 @@ public class armstrongRec {
 			return 0;
 		else{
 			x = number%10;
-			
 			return (int) (Math.pow(x, 3) + arm(number/10));
 		}
 			
@@ -17,7 +16,13 @@ public class armstrongRec {
 	//test 
 	
 	public static void main(String []args){
-		System.out.println(armstrongRec.arm(153));
+		for(int i=0;i<10000;i++){
+			int z=armstrongRec.arm(i);
+			if(z==i){
+				System.out.println(i);
+			}
+		}
+		
 		
 	}
 
